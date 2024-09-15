@@ -1,0 +1,93 @@
+.profile{
+    padding-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heding{
+    padding-top: 7rem;
+    color: var(--green);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.profile-info{
+    padding-top: 2rem;
+    width: 35%;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+    border: 5px solid var(--green);
+}
+.men{
+    font-size: 6rem !important;
+}
+.girl{
+    font-size: 6rem !important;
+}
+.ditel{
+    font-size: 1.5rem;
+}
+.points{
+    margin-top: 2rem;
+    margin-right: 150px;
+}
+.points h1{
+    color: var(--green);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.points p{
+    padding: 5px 0;
+    font-size: 2rem;
+}
+.chart-container h2{
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--green);
+}
+.chart-container{
+    margin-top: 4rem;
+}
+.achive{
+    margin-top: 7rem;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.achheading {
+    margin-top: 7rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--green);
+    font-weight: 600;
+}
+.f50 img{
+    opacity: 0.2;
+    border-radius: 50%;
+    margin: 1rem 0;
+    border: 5px solid var(--green);
+}
+.f50{
+    width: 20%;
+    text-align: center;
+    margin-left: 5rem !important;
+    color: var(--green);
+    margin-right: 4rem;
+}
+.f50 p{
+    color: var(--green);
+}
+.leaderboard{
+    text-align: center;
+    margin: 5rem 0;
+}
