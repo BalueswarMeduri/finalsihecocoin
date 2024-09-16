@@ -53,7 +53,7 @@ const Aboutpage = () => {
             </div>
             <div className="contact-form">
                 <h1 id="GetInTouch" ref={reference}>GET IN TOUCH</h1>
-                <form className="form-container">
+                <form className="form-containerrr">
                     <div className="input-container1">
                         <input type="text" placeholder="Name*"/>
                         <input type="text" placeholder="Email*"/>

@@ -1,5 +1,6 @@
 .bigcontainer {
     padding-bottom: 35rem;
+    overflow: hidden;
 }
 
 .GreenGuide {
@@ -128,4 +129,31 @@ button:hover {
     border-radius: 5px;
     border: 1px solid var(--green);
     cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .GreenGuide{
+        height: 50vh;
+        width: 95%;
+        position: absolute;
+        top: 52rem;
+        left: 0.8rem;
+    }
+    .example{
+        width: 90%;
+        padding-left: 1rem;
+    }
+    .exquestion {
+        display: block;
+        margin-top: 1rem;
+    }
+    .bigcontainer {
+        padding-bottom: 65rem;
+        overflow: hidden;
+    }
+    .que1{
+        margin-bottom: 1rem !important;
+    }
+    .exque{
+        display: block;
+    }
 }

@@ -1,16 +1,16 @@
 import React from 'react'
-import Aboutpage from '../../components/Aboutpage/Aboutpage'
+import Leader from '../../components/Leader/Leader'
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footerinfo'
 
-const About = () => {
+const LeaderBoard = () => {
   return (
     <div>
-      <Navbar/>
-      <Aboutpage/>
-      <Footer/>
+        <Navbar/>
+        <Leader/>
+        <Footer/>
     </div>
   )
 }
 
-export default About
+export default LeaderBoard

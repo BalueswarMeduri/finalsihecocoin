@@ -124,7 +124,7 @@ const Navbar = () => {
             </div>
           </li>
           {isLoggedIn && (
-            <li className={isOpen ? "fade" : ""}>
+            <li  className={isOpen ? "fade" : ""}>
               <Link to="/Profile">
                 <svg
                   className="svgpro"

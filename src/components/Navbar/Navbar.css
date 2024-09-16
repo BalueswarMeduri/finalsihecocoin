@@ -75,11 +75,13 @@ nav {
     background-color: var(--green);
     color: var(--white) !important;
 }
-
+.svgpro{
+    margin-right: 6rem !important;
+}
 .nav-links li a {
     text-decoration: none;
     margin: 0 0.5vw;
-    padding: 0 5px;
+    padding: 0 4px;
     font-weight: 350;
     font-size: 25px;
     color: var(--green);
@@ -106,6 +108,7 @@ nav {
     padding: 0.6rem 0.8rem;
     margin-left: 2vw;
     font-size: 1rem;
+    font-weight: 500 !important;
     cursor: pointer;
 }
 

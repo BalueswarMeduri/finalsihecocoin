@@ -16,6 +16,7 @@ import Carbon from "./pages/Carbon/Carbon";
 import Reedem from "./pages/Reedem/Reedem";
 import { currentUser } from "./connecting"; // Ensure this is correctly imported
 import Button from "./pages/Button/Button";
+import LeaderBoard from "./pages/LeaderBoard/LeaderBoard";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -73,6 +74,7 @@ const App = () => {
           />
           <Route path="/footprint" element={<Carbon />} />
           <Route path="/reedem" element={<Reedem />} />
+          <Route path="/leader" element={<LeaderBoard />} />
         </Routes>
       </BrowserRouter>
     </div>

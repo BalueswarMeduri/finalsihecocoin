@@ -48,7 +48,8 @@ const Profileinfo = () => {
         <div className="points">
             <h1>Total Coins</h1>
             <p>0</p>
-            <Link to="/reedem"><button>Reedem</button></Link>
+            <Link to="/reedem"><button>Reedem</button></Link> <br /> <br />
+            <Link to="/leader"><button>LeaderBoard</button></Link>
         </div>
       </div>
       <h2 className="achheading"> Achievements</h2>
@@ -63,10 +64,6 @@ const Profileinfo = () => {
         </div>
       </div>
       {/* Adding the AreaChart */}
-      <div className="leaderboard">
-        <h1>All world rank</h1>
-        <p>Your Rank : </p>
-      </div>
       <div data-aos="fade-right " className="chart-container">
         <h2>Recent Activity</h2>
         <ResponsiveContainer width="100%" height={400}>
